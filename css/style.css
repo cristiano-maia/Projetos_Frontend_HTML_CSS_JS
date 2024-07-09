@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fcf9d8;
+    font-family: Arial, Helvetica, sans-serif; 
+   
+}
+
+header{
+    background-color: #09a6a3;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    border-bottom: 2px solid #067e7c;
+}
+
+footer {
+    background-color: #09a6a3; 
+    height: 40px; 
+    text-align: center;
+    line-height: 40px; 
+    color: #fff;
+    border-top: 2px solid #067e7c; 
+    position: fixed; /* Fixa o footer na tela */
+    bottom: 0; /* Posiciona o footer na parte inferior */
+    width: 100%; /* Define a largura do footer como 100% */
+}
+
+span a{
+    text-decoration: underline;
+    color: #fff;
+    font-weight: bold;
+}
+
+.titulo{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+}
+
+.titulo2{
+   color: #022b4f;
+   font-weight: bold;
+   font-size: 18px;
+    
+
+}
+
+.projeto01{
+    background-color: #edebc9;
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px #9dbfaf;
+}
+
+a{
+    text-decoration: none;
+    color: #0258a3;
+}
+
+img{
+    width: 100%;
+}
+
+main {
+    min-height: 1000px; /* Ou qualquer altura mínima desejada */
+    overflow: auto; /* Adiciona barras de rolagem quando necessário */
+}
+
+
+#container1, #container2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
