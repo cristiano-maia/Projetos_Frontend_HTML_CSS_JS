@@ -155,3 +155,46 @@ main {
   margin-left: 10px;
   /* Adiciona uma margem esquerda a cada ícone à direita */
 }
+
+.sectionbotoes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botoes{
+  margin-top: 20px;
+  gap: 20px;
+ 
+}
+
+button{
+  width: 200px;
+  height: 40px;
+  background-color:  #f5fbf8;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  border: 1px solid rgb(212, 209, 209);
+  cursor: pointer;
+}
+
+footer{
+  background-color: #dce3e3; 
+    height: 80px; 
+    text-align: left;
+    font-size: 14px;
+    line-height: 40px; 
+    color: #5e5a5a;
+    cursor: pointer;
+    position: fixed; /* Fixa o footer na tela */
+    bottom: 0; /* Posiciona o footer na parte inferior */
+    width: 100%; /* Define a largura do footer como 100% */
+}
+
+.footer2{
+  
+  border-top: 1px solid #c6c9c9; 
+}
